@@ -1,6 +1,7 @@
-## Getting Started
 
-Install packages
+## Nodejs Typescript Express
+
+<span style='color: red;font-weight:bold; font-size:20px;'>👉🏻 Install packages</span>
 
 ```bash
 # setup typescript
@@ -13,12 +14,16 @@ npm i express dotenv cors cookie-parser compression body-parser lodash mongoose
 npm i -D @types/express @types/dotenv cors @types/cookie-parser @types/compression @types/body-parser @types/lodash @types/mongoose
 ```
 
-Run the development server:
+<span style='color: orange;font-weight:bold; font-size:16px;'>👉🏻 Run the development server:</span>
+
 
 ```bash
 npm start
 ```
-Add Environment file
+
+<span style='color: orange;font-weight:bold; font-size:16px;'>👉🏻 Add Environment file</span>
+
+
 
 ```bash
 # add a file at root directory named .env
@@ -29,7 +34,7 @@ SECRET_KEY=niraj@nexxontech.com
 # env details change according whatever you want
 ```
 
-Register `http://localhost:8081/auth/register` POST
+Register `http://localhost:8081/auth/register` **POST**
 ```json
 // Payload
 {
@@ -40,7 +45,7 @@ Register `http://localhost:8081/auth/register` POST
 ```
 
 
-Login `http://localhost:8081/auth/login` POST
+Login `http://localhost:8081/auth/login` **POST**
 ```json
 // Payload
 {
@@ -49,7 +54,7 @@ Login `http://localhost:8081/auth/login` POST
 }
 ```
 
-Get All User `http://localhost:8081/users` GET
+Get All User `http://localhost:8081/users` **GET**
 ```json
 // Output
 [
@@ -75,7 +80,7 @@ Get All User `http://localhost:8081/users` GET
 ```
 
 
-Delete User `http://localhost:8081/users/65ab9793fa536a2623a06949` DELETE
+Delete User `http://localhost:8081/users/65ab9793fa536a2623a06949` **DELETE**
 ```json
 // output
 {
@@ -86,10 +91,17 @@ Delete User `http://localhost:8081/users/65ab9793fa536a2623a06949` DELETE
 }
 ```
 
-UPDATE User `http://localhost:8081/users/65ab9767fa536a2623a0693c` PATCH
+UPDATE User `http://localhost:8081/users/65ab9767fa536a2623a0693c` **PATCH**
 ```json
 // payload
 {
     "username":"Foo bar"
 }
 ```
+
+---
+ **[NexxonTech](https://www.nexxontech.com)**
+ * [Instagram](https://www.instagram.com/nexxon_tech/)
+ * [twitter](https://twitter.com/nexxontech)
+ * [Email](contact@nexxontech.com)
+ * [Website](https://www.nexxontech.com)
